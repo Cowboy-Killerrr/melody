@@ -1,0 +1,6 @@
+.two-columns__main-text {
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}

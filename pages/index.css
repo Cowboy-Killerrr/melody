@@ -1,0 +1,70 @@
+/* vendor */
+@import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
+
+/* animation */
+@import url('../animation/up-to-down/up-to-down.css');
+@import url('../animation/rotation/rotation.css');
+
+/* blocks */
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_place/logo_place_header.css');
+
+@import url('../blocks/stripes/stripes.css');
+@import url('../blocks/stripes/__item/stripes__item.css');
+
+@import url('../blocks/section-title/section-title.css');
+
+@import url('../blocks/section-subtitle/section-subtitle.css');
+
+@import url('../blocks/two-columns/two-columns.css');
+@import url('../blocks/two-columns/__title/two-columns__title.css');
+@import url('../blocks/two-columns/__main-text/two-columns__main-text.css');
+@import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
+@import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
+
+@import url('../blocks/form/form.css');
+@import url('../blocks/form/__fieldset/form__fieldset.css');
+@import url('../blocks/form/__fieldset/_user-name/form__fieldset_user-name.css');
+@import url('../blocks/form/__fieldset/_control/form__fieldset_control.css');
+@import url('../blocks/form/__input/form__input.css');
+@import url('../blocks/form/__textarea/form__textarea.css');
+@import url('../blocks/form/__btn/form__btn.css');
+@import url('../blocks/form/__btn/_type/form__btn_type_submit.css');
+@import url('../blocks/form/__btn/_type/form__btn_type_reset.css');
+
+/* page */
+@import url('../blocks/page/page.css');
+
+/* header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/header/__text/header__text.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__image/header__image.css');
+
+/* description */
+@import url('../blocks/description/description.css');
+
+/* albums */
+@import url('../blocks/albums/albums.css');
+@import url('../blocks/albums/__list/albums__list.css');
+@import url('../blocks/albums/__list-item/albums__list-item.css');
+@import url('../blocks/albums/__image/albums__image.css');
+@import url('../blocks/albums/__info/albums__info.css');
+@import url('../blocks/albums/__card-title/albums__card-title.css');
+@import url('../blocks/albums/__card-subtext/albums__card-subtext.css');
+@import url('../blocks/albums/__triangle/albums__triangle.css');
+
+/* message */
+@import url('../blocks/message/message.css');
+
+/* footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__link/footer__link.css');
+
+/* ::-webkit-input-placeholder;
+::-moz-placeholder;
+::-ms-input-placeholder */

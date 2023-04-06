@@ -1,0 +1,9 @@
+.albums__list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px 60px;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 0;
+}

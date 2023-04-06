@@ -1,0 +1,12 @@
+.form__btn_type_submit {
+  border: none;
+  background-color: var(--blue);
+}
+.form__btn_type_submit:hover {
+  background-color: var(--hover-blue);
+  transition: background-color 0.2s ease-in-out;
+}
+.form__btn_type_submit:active {
+  background-color: var(--active-blue);
+  transition: background-color 0.2s ease-in-out;
+}

@@ -1,0 +1,8 @@
+.form__btn_type_reset:hover {
+  opacity: 0.9;
+  transition: opacity 0.2s ease-in-out;
+}
+.form__btn_type_reset:active {
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}

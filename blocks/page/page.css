@@ -1,0 +1,16 @@
+.page {
+  --white: #fff;
+  --blue: #7862FF;
+  --hover-blue: #7d69fd;
+  --active-blue: #6f59fd;
+  --dark: #222;
+  --dark-grey: #333;
+  --grey: #949494;
+  --gradient-grey-dark: linear-gradient(360deg, #222222 0%, #333333 100%);
+  --gradient-dark-grey: linear-gradient(180deg, #222222 0%, #333333 100%);
+
+  font-family: 'IBM Plex Sans', sans-serif;
+
+  color: var(--white);
+  box-sizing: border-box;
+}

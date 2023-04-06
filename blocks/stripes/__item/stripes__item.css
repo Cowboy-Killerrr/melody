@@ -1,0 +1,37 @@
+.stripes__item {
+  width: 80px;
+  height: 480px;
+  background: linear-gradient(178.41deg, #6a11cb 0%, #2575fc 100%);
+  border-radius: 40px;
+}
+.stripes__item:nth-child(1) {
+  margin: 0 0 0 0;
+  animation-delay: 0.1s;
+}
+.stripes__item:nth-child(2) {
+  margin: 0 0 80px 0;
+  background: linear-gradient(178.41deg, #8b39e2 0%, #104fbd 100%);
+  animation-delay: 0.2s;
+}
+.stripes__item:nth-child(3) {
+  margin: 0 0 230px 0;
+  animation-delay: 0.3s;
+}
+.stripes__item:nth-child(4) {
+  margin: 0 0 380px 0;
+  background: linear-gradient(178.41deg, #8b39e2 0%, #104fbd 100%);
+  animation-delay: 0.4s;
+}
+.stripes__item:nth-child(5) {
+  margin: 0 0 300px 0;
+  animation-delay: 0.5s;
+}
+.stripes__item:nth-child(6) {
+  margin: 0 0 170px 0;
+  background: linear-gradient(178.41deg, #8b39e2 0%, #104fbd 100%);
+  animation-delay: 0.6s;
+}
+.stripes__item:nth-child(7) {
+  margin: 0 0 240px 0;
+  animation-delay: 0.7s;
+}

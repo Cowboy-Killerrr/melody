@@ -1,0 +1,10 @@
+.header__container {
+  box-sizing: border-box;
+  max-width: 1380px;
+  min-width: 1170px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}

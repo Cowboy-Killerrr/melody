@@ -1,0 +1,16 @@
+{
+  "name": "melody",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bemify": "./node_modules/.bin/bemify blocks/message/message.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-to-bem-file-structure": "^0.0.5"
+  }
+}
