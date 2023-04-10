@@ -1,5 +1,10 @@
 const form = document.getElementById('form');
 
+let bot = {
+  token: '6235496583:AAGd0WjGz5HQ6iMLfpsK3OQSt8TjQ3z9ufI',
+  chatID: '-614292046',
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
 
@@ -9,13 +14,14 @@ form.addEventListener('submit', (e) => {
 
   const message = `Имя: ${inputName} %0AEmail: ${inputEmail} %0A%0AСообщение: %0A${messageText}`;
 
-  const token = '6235496583:AAGd0WjGz5HQ6iMLfpsK3OQSt8TjQ3z9ufI';
-  const chatId = '-614292046';
-  const url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chatId}&text=${message}`;
+  fetch(`https://api.telegram.org/bot${bot.token}/sendMessage?chat_id=${bot.chatID}&text=${message}`, {
+    method: 'GET'
+  })
+  .then(success => {
+    alert('Сообщение отправлено, спасибо.');
+  }), error => {
+    alert('Сообщение не отправлено, ошибка.');
+    console.log(error);
+  }
 
-  let api = new XMLHttpRequest();
-  api.open('GET', url, true);
-  api.send();
-
-  alert('Сообщение отправлено, спасибо.');
 })
